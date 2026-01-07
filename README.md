@@ -25,10 +25,10 @@ for row in range(height):
     elif column == 18:
         char = "#"
 5.Characters such as:
-@ → high density / darkest areas
-# → medium density
-- → light structure
-. → fine detail
+'@' → high density / darkest areas
+'#' → medium density
+'-' → light structure
+'.' → fine detail
 are used to shape the portrait.
 6.Each completed row is printed to the terminal.
 
@@ -52,6 +52,9 @@ Convert the logic into data-driven patterns
 Most ASCII art uses static strings.
 This project instead constructs the image algorithmically, which is useful for:
   Learning grid-based rendering
+  
   Understanding low-level graphics logic
+  
   Obfuscation-safe academic projects
+
   Procedural ASCII art generation
